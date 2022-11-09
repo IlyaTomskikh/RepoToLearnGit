@@ -10,8 +10,12 @@ package com.mycompany.gitprojectmvn;
  * @author Ilya
  */
 public class Gitprojectmvn {
+    
+    public static String hello() {
+        return "Hello!!!";
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World!" + hello());
     }
 }
